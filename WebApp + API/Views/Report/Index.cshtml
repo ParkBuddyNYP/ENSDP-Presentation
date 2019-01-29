@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>User Report - Feedbacks</h2>
+
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+
+<script>
+    var base64string;
+
+    function getImage(_callback) {
+
+    var reader = new FileReader();
+    var f = document.getElementById("file-select").files;
+
+    reader.onloadend = function () {
+        //console.log(reader.result);
+        base64string = reader.result.toString();
+        _callback();
+        //console.log(a);
+    }
+    reader.readAsDataURL(f[0]);
+
+
+    }
+
+
+    $(document).ready(function () {
+        $("#submit").click(function () {
+            getImage(function () {
+                console.log(base64string);
+                var reportDescription = document.getElementById("reportDescription").value;
+                var reportType = document.getElementById("reportType").value;
+                var carparkname = document.getElementById("carparkName").value;
+                console.log(reportType);
+                url = "/api/userreports";
+                var s;
+                if (reportType == "others") {
+                    s = '{"reportDescription" : "' + reportDescription + '","reportType" : "' + reportType + '","reportImage" :"' + base64string + '"}';
+                }
+                else {
+                    s = '{"reportDescription" : "' + reportDescription + '","reportType" : "' + reportType + '","carparkName": "' + carparkname + '","reportImage" :"' + base64string +'"}';
+                }
+                callback = function (data) {
+                    alert("Report Inserted");
+                };
+                callbackerror = function (data) {
+                    alert("Report Not Inserted");
+                    console.log(s);
+                };
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: s,
+                    headers: {
+                        'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                    },
+                    success: callback,
+                    error: callbackerror,
+                    processData: false,
+                    contentType: 'application/json'
+
+                });
+            });
+            
+        });
+    });
+
+
+    function loadCarpark() {
+        
+        var carparkheader = document.getElementById("carparkheader");
+        var carparkName = document.getElementById("carparkName");
+        carparkheader.style.display = "none";
+        carparkName.style.display = "none";
+        var arr = [];
+        url = "/api/Carparks/";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                arr.push(item["carparkName"]);
+                carparkName[carparkName.length] = new Option(arr[i], arr[i]);
+            });
+            $("#companyview").html(htmldata);
+        };
+        $.ajax({
+            type: "GET",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadCarpark);
+
+    function onchangecarpark(selectobject) {
+        var carparkheader = document.getElementById("carparkheader");
+        var carparkName = document.getElementById("carparkName");
+        console.log(selectobject.value);
+        if (selectobject.value == "carpark") {
+            carparkheader.style.display = "block";
+            carparkName.style.display = "block";
+        }
+        else {
+           
+            carparkheader.style.display = "none";
+            carparkName.style.display = "none";
+        }
+    }
+
+
+</script>
+
+<div>
+    <h1>Report</h1>
+    <br />
+    <h5>Report Description</h5>
+    <input type="text" id="reportDescription" />
+    <h5>Report Type</h5>
+    <select id="reportType" onchange="onchangecarpark(this)">
+        <option value="others">Others</option>
+        <option value="carpark">Carpark Report</option>
+    </select>
+    <h5 id="carparkheader">Carpark</h5>
+    <select id="carparkName"></select>
+    <h5>Report Image(Optional)</h5>
+    <form id="file-form" method="POST">
+        <input type="file" id="file-select" />
+    </form>
+    <br />
+    <button id="submit">Submit</button>
+</div>

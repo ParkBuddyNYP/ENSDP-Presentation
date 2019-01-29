@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ParkBuddiesITP371" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\User\\Desktop\\ParkBuddies_25\.1\\ParkBuddies\\ParkBuddies\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="ParkBuddies.Models.ParkBuddiesContext" description="" value="Data Source=tcp:parkbuddiesitp371dbserver.database.windows.net,1433;Initial Catalog=ParkBuddiesITP371_db;User Id=sqladmin@parkbuddiesitp371dbserver;Password=azureP@ssw0rd:)" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\User\\Desktop\\ParkBuddies_25\.1\\ParkBuddies\\ParkBuddies\\obj\\Release\\netcoreapp2\.1\\PubTmp\\EFSQLScripts\\ParkBuddies\.Models\.ParkBuddiesContext\.sql$" />
+  </parameter>
+</parameters>

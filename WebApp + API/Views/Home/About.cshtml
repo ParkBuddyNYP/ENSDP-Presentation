@@ -1,0 +1,130 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p><b>Park Buddy </b>is an application where users are able to know the availability of the selected parking lots.</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/images/about2.png" class="img-responsive" />
+    </div>
+    <div class="col-md-4">
+        <img src="~/images/about3.jpg" class="img-responsive" />
+    </div>
+    <div class="col-md-4">
+        <img src="~/images/about1.jpg" class="img-responsive" />
+    </div>
+</div>
+
+<br />
+
+<p>
+    This app is user-friendly and helps all drivers or commuters find the suitable and nearest available spot to park. Other then that,
+    Carpark Administrators are also able to know who has used the facilities through the recorded data that was retrieved from using the app.
+</p>
+
+<br />
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+    <li><a href="#faq" data-toggle="tab">FAQ</a></li>
+    <!--<li class="disabled"><a>Disabled</a></li>-->
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            App Features <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="#appddl1" data-toggle="tab">Locator</a></li>
+            <li class="divider"></li>
+            <li><a href="#appddl2" data-toggle="tab">Alert Message</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Admin Features <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="#adminddl1" data-toggle="tab">Records</a></li>
+            <li class="divider"></li>
+            <li><a href="#adminddl2" data-toggle="tab">Live Footage</a></li>
+        </ul>
+    </li>
+</ul>
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade active in" id="home">
+        <br />
+        <p>
+            A group on Polytechnic students came up with this idea to help others get around faster and safer. They were given 16 weeks to complete the whole project that was carefully planned out.
+            This application will offcially be released on the 1st Febuary 2019. Look out for it!
+        </p>
+        <br />
+        <img src="~/images/parking.jpg" class="img-responsive" />
+    </div>
+    <div class="tab-pane fade" id="faq">
+        <p></p>
+        <div class="panel panel-default">
+            <div class="panel-heading">Activating your Parking Session</div>
+            <div class="panel-body">
+                <p><b>How does Park buddy App work?​</b></p>
+                <p>
+                    Park Buddy allows you to view the slots available for the selected carpark through you mobile devices at all existing public carparks. The app
+                    will serve as an alternative mode of locator when you try to locate an empty slots. You will need to key in your details and vehicle number upon registering before proceeding
+                    to use the features available in the application. This service was created to make it more convinient for you to park your vehicle and determine the waiting time of the carpark.
+                </p>
+                <p><b>When do i need to start using the app?</b></p>
+                <p>
+                    You should start using the application and select the carpark that you intend to travel to before you start driving there. The details will then be displayed out for you to.
+                    Incase if the carpark has limited number of slots left while on the journey there, there will be a notification where it will prompt you other available slots that is near that area.
+                </p>
+                <p><b>How do I select the correct car park?</b></p>
+                <p>You may refer to the car park code indicated on all existing car park signboards We have installed new signboards and also enhanced existing ones within car parks and along kerbside lots to increase the visibility of the car park code.</p>
+                <p><b>Why am I not able to locate car parks nearby?</b></p>
+                <p>To locate car parks nearby, please make sure that you have turned on the location function in your phone setting.</p>
+                <p><b>What happens if I forget to bring my phone or if I have no network coverage?</b></p>
+                <p>If you are unable to park using the app for these reasons stated above, you will have to display parking coupons.</p>
+                <p><b>Can I start a parking session for multiple vehicles?</b></p>
+                <p>No, you will not be able to park for multiple vehicles using the app.</p>
+                <p><b>I own/drive multiple vehicles. Can the app allow me to save all my vehicles?</b></p>
+                <p>Yes, the app automatically saves your recently used vehicles based on your parking history.</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Ending your Parking Session</div>
+            <div class="panel-body">
+                <p><b>What happens if I forget to end my parking session?</b></p>
+                <p>If you do not extend your parking session, it will expire automatically after the initial specified parking duration.</p>
+                <p><b>What happens to my parking session when my phone runs out of battery?</b></p>
+                <p>The parking session will continue to run, and will expire at the end of the selected parking duration. You can choose to purchase another parking session from another mobile device if you wish to park for a longer duration or display parking coupons.</p>
+                <p><b>Does the app track my parking history?</b></p>
+                <p>Yes, you can view your parking history by accessing the parking history page found on the left side menu in the app. You will not be able to retrieve your parking history on your phone if you uninstall the app.</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Others</div>
+            <div class="panel-body">
+                <p><b>I have a Class 1 disability label. Can the app give me the first hour free?</b></p>
+                <p>Yes, you can still enjoy your first hour of parking for free, which is no different from current practice. If you need to continue parking after the first hour, you will need to start a parking session using the app.</p>
+                <p><b>Are foreign vehicles allowed to park using the app?</b></p>
+                <p>Yes, all vehicles including foreign vehicles can park using the app.</p>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="appddl1">
+        <br />
+        <p>Locate your desired carpark with just one touch and be the first to know the availability of the slots!</p>
+    </div>
+    <div class="tab-pane fade" id="appddl2">
+        <br />
+        <p>Incase of limited parking spaces available, get notified through our app of the next nearest parking space available. Hassle-free and super convinient as well!</p>
+    </div>
+    <div class="tab-pane fade" id="adminddl1">
+        <br />
+        <p>By using our service, secured records of the users and usage of the carpark are well looked after. Now you dont have to worry about small damages!</p>
+    </div>
+    <div class="tab-pane fade" id="adminddl2">
+        <br />
+        <p>Get live footage of the sensors that are used from our service that we provide!</p>
+    </div>
+</div>

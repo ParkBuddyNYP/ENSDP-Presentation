@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <address style="border-left:6px solid red;background-color:lightgray;font-size:medium;padding:10px">
+            <br />
+            180 Ang Mo Kio Ave 8 - Singapore, SG 569830<br />
+            <br />
+            <abbr title="Phone">Tel:</abbr>
+            +65 6666 8888
+            <br />
+            <abbr title="Fax">Fax:</abbr>
+            +65 6666 9988
+            <br />
+            <abbr title="Email">Email:</abbr>
+            <a href="mailto:parkbuddy@outlook.com">parkbuddy@outlook.com</a>
+            <br />
+        </address>
+
+        <address style="border-left:6px solid blue;background-color:lightgray;font-size:medium;padding:10px">
+            <strong>Support:</strong> <a href="mailto:parkbuddy@outlook.com">support@outlook.com</a><br />
+            <br />
+            <strong>Marketing:</strong> <a href="mailto:parkbuddy@outlook.com">marketing@outlook.com</a><br />
+        </address>
+    </div>
+    <div class="col-md-6">
+        <form class="form-horizontal">
+            <fieldset>
+                <legend>Feedbacks</legend>
+                <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">Subject</label>
+                    <div class="col-lg-10">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                Report
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                Review
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Message</label>
+                    <div class="col-lg-10">
+                        <textarea class="form-control" rows="3" id="textArea"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <button type="reset" class="btn btn-default">Clear</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<br />
+
+<div class="row">
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.643935273103!2d103.8490213!3d1.3800709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5f10ff680eed942!2sNanyang+Polytechnic!5e0!3m2!1sen!2ssg!4v1544248952104" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>

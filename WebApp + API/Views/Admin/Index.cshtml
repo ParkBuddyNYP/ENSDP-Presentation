@@ -1,0 +1,512 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>ParkBuddies Admin</h2>
+
+
+<!--Update-Database -context ParkBuddiesContext-->
+
+<script>
+    $(document).ready(function () {
+        $("#search").click(function () {
+            console.log("click");
+            url = "/api/Users/";
+            var company = document.getElementById("dropDownCompanySearch").value;
+            callback = function (data) {
+                var htmldata = "";
+                $.each(data, function (i, item) {
+                    if (item.companyName == company) {
+                        htmldata += '<div class="row">' +
+                            '<div class="col-sm-3">' + item.userName + '</div>' +
+                            '<div class="col-sm-3">' + item.userEmail + '</div>' +
+                            '<div class="col-sm-3">' + item.companyName + '</div>' +
+                            '<div class="col-sm-3"> <a href="javascript:remove3(\'' +
+                            item.userID + '\')"> remove </a> </div>' +
+                            '</div>'
+                    }
+                });
+                $("#adminview").html(htmldata);
+            };
+            $.ajax({
+                type: "GET",
+                url: url,
+                headers: {
+                    'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                },
+                data: {},
+                success: callback,
+                error: callbackerror
+            });
+        });
+    });
+    function remove3(userID) {
+        url = "/api/Users/" + userID;
+        $.ajax({
+            type: "DELETE",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            success: callback
+        });
+    };
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#searchAll").click(function () {
+            console.log("click");
+            url = "/api/Users/";
+            callback = function (data) {
+                var htmldata = "";
+                $.each(data, function (i, item) {
+                    if (item.userRole != "NormalUser" || item.userRole != null && sessionStorage.getItem("role").toString() != "ParkBuddyAdmin") {
+                        htmldata += '<div class="row">' +
+                            '<div class="col-sm-3">' + item.userName + '</div>' +
+                            '<div class="col-sm-3">' + item.userEmail + '</div>' +
+                            '<div class="col-sm-3">' + item.companyName + '</div>' +
+                            '<div class="col-sm-3"> <a href="javascript:remove2(\'' +
+                            item.userID + '\')"> remove </a> </div>' +
+                            '</div>'
+                    }
+
+                });
+                $("#adminview").html(htmldata);
+            };
+            callbackerror = function (data) { alert("Error"); };
+            $.ajax({
+                type: "GET",
+                url: url,
+                headers: {
+                    'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                },
+                data: {},
+                success: callback,
+                error: callbackerror
+            });
+        });
+    });
+    function loadReports() {
+
+        url = "/api/UserReports";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                console.log("a")
+                htmldata += '<div class="row">' +
+                    '<div class="col-sm-3">' + item.reportDescription + '</div>' +
+                    '<div class="col-sm-3">' + item.reportType + '</div>' +
+                    '<div class="col-sm-3">' + item.carparkName + '</div>' +
+                    '<div class="col-sm-3"><img src="' + item.reportImage + '" alt="Trulli" width="200" height="200"></div>' +
+                    '</div>'
+
+            });
+            $("#reportview").html(htmldata);
+        };
+        $.ajax({
+            type: "GET",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadReports);
+    /*
+    function loadAdmin() {
+        url = "/api/Users/";
+        var company = document.getElementById("dropDownCompanySearch").value;
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                htmldata += '<div class="row">' +
+                    '<div class="col-sm-3">' + item.userName + '</div>' +
+                    '<div class="col-sm-3">' + item.userEmail + '</div>' +
+                    '<div class="col-sm-3">' + item.companyName + '</div>' +
+                    '<div class="col-sm-3"> <a href="javascript:remove(\'' +
+                    item.userID + '\')"> remove </a> </div>' +
+                    '</div>'
+            });
+            $("#adminview").html(htmldata);
+        };
+        $.ajax({
+            type: "GET",
+            url: url,
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadAdmin);*/
+    function remove2(userID) {
+        url = "/api/Users/" + userID;
+        $.ajax({
+            type: "DELETE",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            success: callback
+        });
+    };
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#addCompany").click(function () {
+            console.log("click");
+            url = "/api/CarparkCompanies";
+            var company = document.getElementById("company").value;
+            if (company == "") {
+                alert("Please Fill All Required Field");
+                return false;
+            }
+            s = '{"CompanyName" : "' + company + '" }';
+            callback = function (data) {
+                alert("New Company inserted."); window.location.reload();
+            };
+            callbackerror = function (data) { alert("Company not inserted."); };
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: s,
+                headers: {
+                    'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                },
+                success: callback,
+                error: callbackerror,
+                processData: false,
+                contentType: 'application/json'
+            });
+        });
+    });
+</script>
+
+<script>
+    function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@@\"]+(\.[^<>()[\]\\.,;:\s@@\"]+)*)|(\".+\"))@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+
+    $(document).ready(function () {
+        $("#addAdmin").click(function () {
+
+            console.log("click");
+            url = "/api/Users/register";
+            var adminUsername = document.getElementById("adminUsername").value;
+            var adminName = document.getElementById("adminName").value;
+            var adminEmail = document.getElementById("adminEmail").value;
+            var adminPassword = document.getElementById("adminPassword").value;
+            var adminCfmPassword = document.getElementById("adminCfmPassword").value;
+            var adminCompanyName = document.getElementById("dropDownCompany").value;
+            var role = "CompanyAdmin";
+            s = '{"Username" : "' + adminUsername + '","Name" : "' + adminName + '","UserEmail" : "'
+                + adminEmail + '","userPassword" : "' + adminPassword + '","UserRole" : "' + role + '", "CompanyName" : "'
+                + adminCompanyName + '" }';
+
+            if (adminUsername == "" || adminName == "" || adminEmail == "" || adminPassword == "" || adminCfmPassword == "" || adminCompanyName == "") {
+                alert("Please fill in all inputs.")
+            }
+            else {
+                if (adminPassword != adminCfmPassword) {
+                    alert("Passwords are not the same")
+                }
+                else {
+                    if (validateEmail(adminEmail)) {
+                        callback = function (data) {
+                            alert("Admin Registered. ");
+                            console.log(data["name"])
+                            window.location.href = "@Url.Action("Index", "Admin")";
+                        };
+                        callbackerror = function (data) { alert("User not registered."); };
+                        $.ajax({
+                            type: "POST",
+                            url: url,
+                            data: s,
+                            headers: {
+                                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                            },
+                            success: callback,
+                            error: callbackerror,
+                            processData: false,
+                            contentType: 'application/json'
+
+                        });
+                    }
+                    else {
+                        alert("Email format is invalid")
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+    function loadCompany() {
+        var ddl = document.getElementById("dropDownCompany");
+        var ddlSearch = document.getElementById("dropDownCompanySearch");
+
+        var arr = [];
+        url = "/api/CarparkCompanies/";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                arr.push(item["companyName"]);
+                ddl[ddl.length] = new Option(arr[i], arr[i]);
+                ddlSearch[ddlSearch.length] = new Option(arr[i], arr[i]);
+
+                htmldata += '<div class="row">' +
+                    '<div class="col-sm-4">' + item.companyName + '</div>' +
+                    '<div class="col-sm-4"> <a href="javascript:remove(\'' +
+                    item.companyID + '\')"> remove </a> </div>' +
+                    '</div>'
+
+            });
+            $("#companyview").html(htmldata);
+        };
+        $.ajax({
+            type: "GET",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadCompany);
+    function remove(companyID) {
+        url = "/api/CarparkCompanies/" + companyID;
+        $.ajax({
+            type: "DELETE",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            success: location.reload()
+        }); 
+    }; 
+</script>
+
+<script>
+    function loadUsers() {
+        url = "/api/Users/";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                if (item.userRole == "NormalUser") {
+                    htmldata += '<div class="row">' +
+                        '<div class="col-sm-3">' + item.userName + '</div>' +
+                        '<div class="col-sm-3">' + item.userEmail + '</div>' +
+                        '<div class="col-sm-2">' + item.currentLotUsed + '</div>' +
+                        '<div class="col-sm-2">' + item.carparkid + '</div>' +
+                        '<div class="col-sm-2"> <a href="javascript:remove2(\'' +
+                        item.userID + '\')"> remove </a> </div>' +
+                        '</div>'
+                }
+
+            });
+            $("#userview").html(htmldata);
+        };
+        callbackerror = function (data) { alert("Error"); };
+        $.ajax({
+            type: "GET",
+            url: url,
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            data: {},
+            success: callback,
+            error: callbackerror
+        });
+    };
+    $(document).ready(loadUsers);
+    function remove2(userID) {
+        url = "/api/Users/" + userID;
+        $.ajax({
+            type: "DELETE",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            success: loadUsers
+        });
+    };
+</script>
+
+<body>
+
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#viewCarpark" data-toggle="tab">View/Create Company</a></li>
+        <li><a href="#viewAdmin" data-toggle="tab">View All Company Admins</a></li>
+        <li><a href="#createAdmin" data-toggle="tab">Create Company Admins</a></li>
+        <li><a href="#viewAllUsers" data-toggle="tab">View All Users</a></li>
+        <li><a href="#viewAllReports" data-toggle="tab">View Reports</a></li>
+    </ul>
+
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="viewCarpark">
+            <br />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well well-lg">
+                        <div class="validation-summary-valid" data-valmsg-summary="true">
+                            <ul><li style="display:none"></li></ul>
+                        </div>
+                        <label>Company Name:</label>
+                        <p><input type="text" class="form-control" id="company" /></p>
+                        <button type="submit" class="btn btn-default" id="addCompany">Add New Company</button>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="well well-lg">
+                        <div class="row">
+                            <div id="companyviewheader" class="container-fluid">
+                                <div class="col-sm-6">
+                                    <b>Company Name</b>
+                                </div>
+                                <div class="col-sm-6">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr />
+                        <div id="companyview" class="container-fluid">
+                        </div>
+                    </div>
+
+                    <br />
+                </div>
+            </div>
+
+
+        </div>
+        <div class="tab-pane fade" id="viewAdmin">
+            <br />
+            <div class="well well-lg">
+                <div class="row">
+                    <label>Select Company Name:</label>
+                    <p><select class="form-control" id="dropDownCompanySearch"></select></p>
+                    <button type="submit" class="btn btn-default" id="search">Select Company Admins</button>
+                    <button type="submit" class="btn btn-default" id="searchAll">Display all Company Admins</button>
+                </div>
+            </div>
+            <div class="well well-lg">
+                <div id="adminviewheader" class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <b>Admin Name</b>
+                        </div>
+                        <div class="col-sm-3">
+                            <b>Email</b>
+                        </div>
+                        <div class="col-sm-3">
+                            <b>Company Name</b>
+                        </div>
+                        <div class="col-sm-3">
+                        </div>
+                    </div>
+                </div>
+                <div id="adminview" class="container-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="viewAllReports">
+            <div class="well well-lg">
+                <div id="reportviewheader" class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <b>Report Description</b>
+                        </div>
+                        <div class="col-sm-3">
+                            <b>Report Type</b>
+                        </div>
+                        <div class="col-sm-3">
+                            <b>Carpark</b>
+                        </div>
+                        <div class="col-sm-3">
+                            <b>Report Image</b>
+                        </div>
+                    </div>
+                </div>
+                <div id="reportview" class="container-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="createAdmin">
+            <p class="bg-info">Add a Admin User to the company that was just created.. </p>
+            <div class="well well-lg">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label>Admin Username:</label>
+                        <p><input type="text" class="form-control" id="adminUsername" /></p>
+                    </div>
+                    <div class="col-xs-6">
+                        <label>Admin Name:</label>
+                        <p><input type="text" class="form-control" id="adminName" /></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <label>User Email:</label>
+                        <p><input type="text" class="form-control" id="adminEmail" /></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label>Password:</label>
+                        <p><input type="password" class="form-control" id="adminPassword" /></p>
+                    </div>
+                    <div class="col-xs-6">
+                        <label>
+                            Confirm Password:
+                        </label>
+                        <p><input type="password" class="form-control" id="adminCfmPassword" /></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <label>
+                            Company Name:
+                        </label>
+                        <p><select class="form-control" id="dropDownCompany"></select></p>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-default" id="addAdmin">Add Company Admin</button>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="viewAllUsers">
+            <br />
+            <div class="well well-lg">
+                <div id="userviewheader" class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <b>User Name</b>
+                        </div>
+                        <div class="col-sm-3">
+                            <b>Email</b>
+                        </div>
+                        <div class="col-sm-2">
+                            <b>Lot Used</b>
+                        </div>
+                        <div class="col-sm-2">
+                            <b>Carpark ID</b>
+                        </div>
+                        <div class="col-sm-2">
+                            Action
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div id="userview" class="container-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

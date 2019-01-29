@@ -1,0 +1,666 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Company Admin</h2>
+
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<!--<link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1542186754" />
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<style>
+    #myMap {
+        height: 350px;
+        width: 680px;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: "/api/CarparkGraphDatas/",
+            dataType: "json",
+            contentType: "application/json",
+            success: function (result) {
+                google.charts.load('current', {
+                    'packages': ['corechart']
+                });
+                google.charts.setOnLoadCallback(function () {
+                    drawChart(result);
+                });
+            }
+        });
+
+        function drawChart(result) {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'CarparkName');
+            data.addColumn('string', 'LotsAvailable');
+            var dataArray = [];
+
+            $.each(result, function (i, obj) {
+                dataArray.push([obj.carparkName, parseInt(obj.lotsAvailable).toString()]);
+            });
+            data.addRows(dataArray);
+            var piechart_options = {
+                title: 'Amount of Lots Available',
+                width: 250,
+                height: 150
+            };
+            var piechart = new google.visualization.PieChart(document.getElementById('piechart_div'));
+            piechart.draw(data, piechart_options);
+
+            var barchart_options = {
+                title: 'Barchart: Amount of Lots Available',
+                width: 400,
+                height: 300,
+                legend: 'none'
+            };
+            var barchart = new google.visualization.BarChart(document.getElementById('barchart_div'));
+            barchart.draw(data, barchart_options);
+        }
+    });
+</script>
+
+<script>
+    function loadAdmin() {
+        url = "/api/Users/";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                if (item.companyName == sessionStorage.getItem("company").toString() && item.userName != sessionStorage.getItem("name").toString()) {
+                    htmldata += '<div class="row">' +
+                        '<div class="col-sm-3">' + item.userName + '</div>' +
+                        '<div class="col-sm-3">' + item.userEmail + '</div>' +
+                        '<div class="col-sm-3">' + item.adminRFID + '</div>' +
+                        '<div class="col-sm-3"> <a href="javascript:remove2(\'' +
+                        item.userID + '\')"> remove </a> </div>' +
+                        '</div>'
+                }
+
+            });
+            $("#adminview").html(htmldata);
+        };
+        $.ajax({
+            type: "GET",
+            url: url,
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadAdmin);
+    function remove2(userID) {
+        url = "/api/Users/" + userID;
+        $.ajax({
+            type: "DELETE",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            success: loadAdmin
+        });
+    };
+</script>
+
+<script>
+    function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@@\"]+(\.[^<>()[\]\\.,;:\s@@\"]+)*)|(\".+\"))@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+
+    $(document).ready(function () {
+        $("#addAdmin").click(function () {
+
+            console.log("click");
+            url = "/api/Users/register";
+            var adminUsername = document.getElementById("adminUsername").value;
+            var adminName = document.getElementById("adminName").value;
+            var adminEmail = document.getElementById("adminEmail").value;
+            var adminPassword = document.getElementById("adminPassword").value;
+            var adminCfmPassword = document.getElementById("adminCfmPassword").value;
+            var aacompany = sessionStorage.getItem("company").toString();
+            var role = "CompanyAdmin";
+            s = '{"Username" : "' + adminUsername + '","Name" : "' + adminName + '","UserEmail" : "'
+                + adminEmail + '","userPassword" : "' + adminPassword + '","UserRole" : "' + role + '", "CompanyName" : "'
+                + aacompany + '" }';
+
+            if (adminUsername == "" || adminName == "" || adminEmail == "" || adminPassword == "" || adminCfmPassword == "" || aacompany == "") {
+                alert("Please fill in all inputs.")
+            }
+            else {
+                if (adminPassword != adminCfmPassword) {
+                    alert("Passwords are not the same")
+                }
+                else {
+                    if (validateEmail(adminEmail)) {
+                        callback = function (data) {
+                            alert("Admin Registered. ");
+                            console.log(data["name"])
+                        };
+                        callbackerror = function (data) { alert("User not registered."); };
+                        $.ajax({
+                            type: "POST",
+                            url: url,
+                            data: s,
+                            headers: {
+                                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                            },
+                            success: callback,
+                            error: callbackerror,
+                            processData: false,
+                            contentType: 'application/json'
+
+                        });
+                    }
+                    else {
+                        alert("Email format is invalid")
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+<!--<script>
+    function loadStats() {
+        url = "/api/CarparkGraphDatas/",
+            callback = function (data) {
+                var htmldata = "";
+                $.each(data, function (i, item) {
+                    htmldata += '<div class="row">' +
+                        '<div class="col-sm-3">' + item.carparkName + '</div>' +
+                        '<div class="col-sm-3">' + item.lotsAvailable + '</div>' +
+                        '<div class="col-sm-3">' + item.totalNumberOfLots + '</div>' +
+                        '<div class="col-sm-3">' + item.timeRecorded + '</div>' +
+                        '</div>'
+                });
+                $("#graphview").html(htmldata);
+            };
+        callbackerror = function (data) { alert("Error"); };
+        $.ajax({
+            type: "GET",
+            url: url,
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            data: {},
+            success: callback,
+            error: callbackerror
+        });
+    };
+    $(document).ready(loadStats);
+</script>-->
+<script>
+    $(document).ready(function () {
+        $("#submitCars").click(function () {
+            console.log("click");
+            url = "/api/CarparkGraphDatas/";
+            var carpark = document.getElementById("dropDownCarpark").value;
+            callback = function (data) {
+                var htmldata = "";
+                $.each(data, function (i, item) {
+                    if (item.carparkName == carpark) {
+                        htmldata += '<div class="row">' +
+                            '<div class="col-sm-3">' + item.carparkName + '</div>' +
+                            '<div class="col-sm-3">' + item.lotsAvailable + '</div>' +
+                            '<div class="col-sm-3">' + item.totalNumberOfLots + '</div>' +
+                            '<div class="col-sm-3">' + item.timeRecorded + '</div>' +
+                            '</div>'
+                    }
+                });
+                $("#graphview").html(htmldata);
+            };
+            $.ajax({
+                type: "GET",
+                url: url,
+                headers: {
+                    'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                },
+                data: {},
+                success: callback,
+                error: callbackerror
+            });
+        });
+    });
+</script>
+<script>
+    function loadCars() {
+        var ddlC = document.getElementById("dropDownCarpark");
+        var arr = [];
+
+        url = "/api/Carparks/";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                arr.push(item["carparkName"]);
+                ddlC[ddlC.length] = new Option(arr[i], arr[i]);
+            });
+            $("#carsview").html(htmldata);
+        };
+        $.ajax({
+            type: "GET",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadCars);
+</script>
+
+<script>
+    function loadCarpark() {
+        url = "/api/Carparks/" + sessionStorage.getItem("company").toString() + "/";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                htmldata += '<div class="row">' +
+                    '<div class="col-sm-2">' + item.carparkName + '</div>' +
+                    '<div class="col-sm-2">' + item.totalNumberOfLots + '</div>' +
+                    '<div class="col-sm-3">' + item.carparkLat + '</div>' +
+                    '<div class="col-sm-3">' + item.carparkLng + '</div>' +
+                    '<div class="col-sm-2"> <a href="javascript:remove(\'' +
+                    item.carparkID + '\')"> remove </a> </div>' +
+                    '</div>'
+            });
+            $("#carparkview").html(htmldata);
+        };
+        $.ajax({
+            type: "GET",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadCarpark);
+    function remove(carparkID) {
+        url = "/api/Carparks/" + carparkID;
+        $.ajax({
+            type: "DELETE",
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            url: url,
+            success: location.reload()
+        });
+    };
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#addCarpark").click(function () {
+
+            console.log("click");
+            url = "/api/Carparks";
+            var carparkname = document.getElementById("carparkname").value;
+            var carparklat = document.getElementById("carparklat").value;
+            var carparklng = document.getElementById("carparklng").value;
+            var noofslots = document.getElementById("nooflots").value;
+            var aacompany = sessionStorage.getItem("company").toString();
+            console.log(aacompany);
+            //alert("Add new Carpark");
+            s = '{"CarparkName" : "' + carparkname + '" , "CarparkLat" : "' + carparklat + '" , "CarparkLng" : "' + carparklng + '" ,"companyName" : "' + aacompany + '","TotalNumberOfLots" : "' + noofslots + '"}';
+            callback = function (data) { alert("Carpark inserted."); window.location.href = "@Url.Action("Index", "Parking")"; };
+            callbackerror = function (data) { alert("Carpark not inserted."); };
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: s,
+                success: callback,
+                headers: {
+                    'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                },
+                error: callbackerror,
+                processData: false,
+                contentType: 'application/json'
+
+            });
+        });
+    });
+</script>
+
+<script>
+    function loadUsers() {
+        url = "/api/Users/";
+        callback = function (data) {
+            var htmldata = "";
+            $.each(data, function (i, item) {
+                if (item.userRole == "NormalUser") {
+                    htmldata += '<div class="row">' +
+                        '<div class="col-sm-3">' + item.userName + '</div>' +
+                        '<div class="col-sm-3">' + item.userEmail + '</div>' +
+                        '<div class="col-sm-3">' + item.currentLotUsed + '</div>' +
+                        '<div class="col-sm-3">' + item.carparkid + '</div>' +
+                        '</div>'
+                }
+
+            });
+            $("#userview").html(htmldata);
+        };
+        callbackerror = function (data) { alert("Error"); };
+        $.ajax({
+            type: "GET",
+            url: url,
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            data: {},
+            success: callback,
+            error: callbackerror
+        });
+    };
+    $(document).ready(loadUsers);
+</script>
+
+<script>
+    function loadReport() {
+        url = "/api/UserReports/",
+            callback = function (data) {
+                var htmldata = "";
+                $.each(data, function (i, item) {
+                    htmldata += '<div class="row">' +
+                        '<div class="col-sm-2">' + item.reportID + '</div>' +
+                        '<div class="col-sm-2">' + item.reportStatus + '</div>' +
+                        '<div class="col-sm-2">' + item.reportDate + '</div>' +
+                        '<div class="col-sm-2">' + item.reportDescription + '</div>' +
+                        '<div class="col-sm-2">' + item.reportImage + '</div>' +
+                        '<div class="col-sm-2">' + item.userID + '</div>' +
+                        '</div>'
+                });
+                $("#reportview").html(htmldata);
+            };
+        $.ajax({
+            type: "GET",
+            url: url,
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            data: {},
+            success: callback
+        });
+    };
+    $(document).ready(loadReport);
+</script>
+
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#view" data-toggle="tab">View Carpark</a></li>
+    <li><a href="#create" data-toggle="tab">Create Carpark</a></li>
+    <li><a href="#viewAdminUser" data-toggle="tab">View Admin Users</a></li>
+    <li><a href="#createAdminUser" data-toggle="tab">Create Admin Users</a></li>
+    <li><a href="#viewUserRec" data-toggle="tab">View User Record</a></li>
+    <li><a href="#viewStats" data-toggle="tab">Statistics</a></li>
+</ul>
+
+<div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade active in" id="view">
+        <br />
+        <div class="well well-lg">
+            <div id="carparkviewheader" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <b>Carpark Name</b>
+                    </div>
+                    <div class="col-sm-2">
+                        <b>No. of Lots</b>
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Latitude</b>
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Longitude</b>
+                    </div>
+                    <div class="col-sm-2">
+
+                    </div>
+                </div>
+                <hr />
+            </div>
+            <div id="carparkview" class="container-fluid">
+            </div>
+            <div id="companyviewheader" class="container-fluid">
+            </div>
+            <div id="companyview" class="container-fluid">
+            </div>
+        </div>
+        <!--<div id="map" style="width: 100%; height: 400px; background: grey" />
+        <script type="text/javascript" charset="UTF-8">
+
+            function moveMapToBerlin(map) {
+                map.setCenter({ lat: 1.3521, lng: 103.8198 });
+                map.setZoom(12);
+            }
+
+            //Step 1: initialize communication with the platform
+            var platform = new H.service.Platform({
+                app_id: 'devportal-demo-20180625',
+                app_code: '9v2BkviRwi9Ot26kp2IysQ',
+                useHTTPS: true
+            });
+            var pixelRatio = window.devicePixelRatio || 1;
+            var defaultLayers = platform.createDefaultLayers({
+                tileSize: pixelRatio === 1 ? 256 : 512,
+                ppi: pixelRatio === 1 ? undefined : 320
+            });
+
+            //Step 2: initialize a map  - not specificing a location will give a whole world view.
+            var map = new H.Map(document.getElementById('map'),
+                defaultLayers.normal.map, { pixelRatio: pixelRatio });
+
+            //Step 3: make the map interactive
+            // MapEvents enables the event system
+            // Behavior implements default interactions for pan/zoom (also on mobile touch environments)
+            var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+
+            // Create the default UI components
+            var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+            // Now use the map as required...
+            moveMapToBerlin(map);
+        </script>
+            -->
+    </div>
+    <div class="tab-pane fade" id="create">
+        <br />
+        <div class="well well-lg">
+            <div class="row">
+                <div class="col-xs-8">
+                    <label>Carpark Name:</label>
+                    <p><input type="text" class="form-control" id="carparkname" /></p>
+                </div>
+                <div class="col-xs-4">
+                    <label>No. of Lots:</label>
+                    <p><input type="text" class="form-control" id="nooflots" /></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <label>Latitude:</label>
+                    <p><input type="text" class="form-control" id="carparklat" /></p>
+                </div>
+                <div class="col-xs-6">
+                    <label>Longitude:</label>
+                    <p><input type="text" class="form-control" id="carparklng" /></p>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-default" id="addCarpark">Add Carpark</button>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="viewAdminUser">
+        <br />
+        <div class="well well-lg">
+            <div id="adminviewheader" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <b>Admin Name</b>
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Email</b>
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Admin RFID</b>
+                    </div>
+                    <div class="col-sm-3">
+                        Action
+                    </div>
+                </div>
+            </div>
+            <div id="adminview" class="container-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="createAdminUser">
+        <p class="bg-info">Add Admin User to the company.. </p>
+        <br />
+        <div class="well well-lg">
+            <div class="row">
+                <div class="col-xs-6">
+                    <label>Admin Username:</label>
+                    <p><input type="text" class="form-control" id="adminUsername" /></p>
+                </div>
+                <div class="col-xs-6">
+                    <label>Admin Name:</label>
+                    <p><input type="text" class="form-control" id="adminName" /></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <label>User Email:</label>
+                    <p><input type="text" class="form-control" id="adminEmail" /></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <label>Password:</label>
+                    <p><input type="password" class="form-control" id="adminPassword" /></p>
+                </div>
+                <div class="col-xs-6">
+
+                    <label>Confirm Password:</label>
+                    <p><input type="password" class="form-control" id="adminCfmPassword" /></p>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-default" id="addAdmin">Add Company Admin</button>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="viewUserRec">
+        <br />
+        <div class="well well-lg">
+
+            <div id="userviewheader" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <b>User Name</b>
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Email</b>
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Lot Used</b>
+                    </div>
+                    <div class="col-sm-3">
+                        <b>Carpark ID</b>
+                    </div>
+                </div>
+                <hr />
+            </div>
+
+            <div id="userview" class="container-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="viewReport">
+        <br />
+        <div class="well well-lg">
+
+            <div id="reportviewheader" class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <b>ReportID</b>
+                    </div>
+                    <div class="col-sm-2">
+                        <b>Report Status</b>
+                    </div>
+                    <div class="col-sm-2">
+                        <b>Report Date</b>
+                    </div>
+                    <div class="col-sm-2">
+                        <b>Description</b>
+                    </div>
+                    <div class="col-sm-2">
+                        <b>Image</b>
+                    </div>
+                    <div class="col-sm-2">
+                        <b>UserID</b>
+                    </div>
+                </div>
+                <hr />
+            </div>
+            <div id="reportview" class="container-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="viewStats">
+        <br />
+        <div class="well well-lg">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="piechart_div" style="border:1px solid #ccc"></div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                            <label>
+                                Carpark Name:
+                            </label>
+                            <p><select class="form-control" id="dropDownCarpark"></select></p>
+                            <button type="submit" class="btn btn-default" id="submitCars">Submit</button>
+                    </div>
+                    <div id="graphviewheader" class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <b>Carpark Name</b>
+                            </div>
+                            <div class="col-sm-3">
+                                <b>Lots Available</b>
+                            </div>
+                            <div class="col-sm-3">
+                                <b>Total Number Of Lots</b>
+                            </div>
+                            <div class="col-sm-3">
+                                <b>Time Recorded</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="graphview" class="container-fluid">
+                    </div>
+                </div>
+
+            </div>
+            <!--<div class="row">
+                <div id="barchart_div" style="border:1px solid #ccc"></div>
+            </div>-->
+
+        </div>
+    </div>
+</div>

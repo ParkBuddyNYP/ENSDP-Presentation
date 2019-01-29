@@ -1,0 +1,42 @@
+﻿@model ParkBuddies.Models.User
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Add User</h2>
+
+<script src="/lib/jquery/dist/jquery.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#adduser").click(function () {
+            console.log("click");
+            url = "/api/Users/";
+            s = "'{\"userName\":\"@Model.UserName\", " +
+                "}'";
+            callback = function (data) { alert("User inserted."); };
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: s,
+                headers: {
+                    'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+                },
+                success: callback,
+                processData: false,
+                contentType: 'application/json'
+
+            });
+        });
+    });
+</script>
+
+<hr />
+
+@Html.TextBox("testing", "Testing", new { @Model = "UserName" })
+
+

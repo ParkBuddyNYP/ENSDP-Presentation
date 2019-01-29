@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+<h2>User Records - Usages</h2>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="~/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+    function loadUsers() {
+        url = "/api/Users/";
+        callback = function (data) {
+            var htmldata = "";
+            var name = sessionStorage.getItem("userName").toString();
+            $.each(data, function (i, item) {
+                    htmldata += '<div class="row">' +
+                        '<div class="col-sm-3">' + item.userID + '</div>' +
+                        '<div class="col-sm-3">' + item.userName + '</div>' +
+                        '<div class="col-sm-3">' + item.currentLotUsed + '</div>' +
+                        '<div class="col-sm-3">' + item.carparkid + '</div>' +
+                        '</div>'
+            });
+            $("#carparkview").html(htmldata);
+        };
+        callbackerror = function (data) { alert("Error"); };
+        $.ajax({
+            type: "GET",
+            url: url,
+            headers: {
+                'Authorization': 'Bearer ' + sessionStorage.getItem("token").toString(),
+            },
+            data: {},
+            success: callback,
+            error: callbackerror
+        });
+    };
+    $(document).ready(loadUsers);
+</script>
+
+<div id="carparkviewheader" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <b>UserID</b>
+        </div>
+        <div class="col-sm-3">
+            <b>User Name</b>
+        </div>
+        <div class="col-sm-3">
+            <b>Lot Used</b>
+        </div>
+        <div class="col-sm-3">
+            <b>Carpark ID</b>
+        </div>
+    </div>
+    <hr />
+</div>
+
+<div id="carparkview" class="container-fluid">
+</div>

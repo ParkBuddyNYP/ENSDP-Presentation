@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Park Buddies Reporting System</string>
+    <string name="hello_world">HLEP US TO IMPROVE!</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="opengl">Open GL</string>
+    <string name="tabs">Tabs</string>
+    <string name="action_show_instabug">Report To Us</string>
+    <string name="action_start_new_conversation">Start new conversation</string>
+    <string name="action_show_conversation_list">Show conversation list</string>
+    <string name="action_show_new_messages_count">Show new messages count</string>
+    <string name="action_primary_color">Choose primary color</string>
+    <string name="action_do_network_request">Do network request</string>
+    <string name="action_send_handled_exception">Send handled exception</string>
+
+
+</resources>

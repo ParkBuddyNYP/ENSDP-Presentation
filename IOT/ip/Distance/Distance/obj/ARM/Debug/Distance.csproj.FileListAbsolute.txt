@@ -1,0 +1,850 @@
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Distance.winmd
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Distance.pdb
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\resources.pri
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\AppxManifest.xml
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Core\AppxManifest.xml
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Core\UWPShim.exe
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Distance.build.appxrecipe
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Microsoft.CSharp.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Core.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Web.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Windows.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Linq.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Serialization.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Xml.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Microsoft.VisualBasic.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Collections.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tools.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tracing.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Calendars.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.IO.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Extensions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Resources.ResourceManager.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Handles.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.Extensions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Timer.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Microsoft.Win32.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Debug.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Sockets.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Extensions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Private.Uri.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\clrcompression.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.AppContext.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Buffers.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Concurrent.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Immutable.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Collections.NonGeneric.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Specialized.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.Annotations.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Data.Common.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Contracts.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.StackTrace.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Dynamic.Runtime.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Extensions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.ZipFile.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.IO.IsolatedStorage.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Linq.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Expressions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Parallel.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Queryable.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Rtc.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.NameResolution.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.NetworkInformation.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Requests.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebHeaderCollection.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.Client.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ObjectModel.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Private.DataContractSerialization.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Private.ServiceModel.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Context.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.DispatchProxy.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.Lightweight.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Metadata.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.TypeExtensions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Numerics.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Json.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Xml.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Security.Claims.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Cng.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Encoding.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Security.Principal.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Duplex.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Http.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.NetTcp.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Security.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.CodePages.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Text.RegularExpressions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Threading.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Overlapped.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Parallel.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Xml.ReaderWriter.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XDocument.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlDocument.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlSerializer.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\GrovePi.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.csprojAssemblyReference.cache
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CoreCompileInputs.cache
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.winmd
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.pdb
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CopyComplete
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.winmdobj
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.compile.pdb
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\ResourceHandlingTask.state
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Primitives.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Sockets.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.Uri.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Buffers.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Data.Common.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Http.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NameResolution.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NetworkInformation.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Requests.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.Client.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ObjectModel.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Claims.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Algorithms.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Cng.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Encoding.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Primitives.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.X509Certificates.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml.intermediate
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\unfiltered.layout.resfiles
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\unfiltered.layout.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\filtered.layout.resfiles
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\filtered.layout.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\excluded.layout.resfiles
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\excluded.layout.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt.intermediate
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\ProjectArchitectures.txt
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Formatting.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Extensions.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Primitives.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\bin\ARM\Debug\Newtonsoft.Json.dll
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+D:\Users\160455Y\Desktop\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.GenerateResource.Cache
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.winmd
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.pdb
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\resources.pri
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\AppxManifest.xml
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Core\AppxManifest.xml
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Core\UWPShim.exe
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.build.appxrecipe
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Formatting.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.CSharp.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Extensions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Core.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Web.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Windows.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Linq.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Serialization.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.VisualBasic.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Newtonsoft.Json.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tools.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tracing.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Calendars.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Extensions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Resources.ResourceManager.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Handles.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.Extensions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Timer.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.Win32.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Debug.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Sockets.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Extensions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.Uri.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\clrcompression.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.AppContext.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Buffers.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Concurrent.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Immutable.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.NonGeneric.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Specialized.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.Annotations.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Data.Common.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Contracts.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.StackTrace.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Dynamic.Runtime.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Extensions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.ZipFile.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.IsolatedStorage.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Expressions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Parallel.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Queryable.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Rtc.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.NameResolution.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.NetworkInformation.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Requests.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebHeaderCollection.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.Client.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ObjectModel.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.DataContractSerialization.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.ServiceModel.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Context.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.DispatchProxy.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.Lightweight.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Metadata.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.TypeExtensions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Numerics.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Json.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Xml.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Claims.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Cng.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Encoding.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Principal.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Duplex.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Http.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.NetTcp.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Primitives.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Security.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.CodePages.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.RegularExpressions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Overlapped.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Parallel.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.ReaderWriter.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XDocument.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlDocument.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlSerializer.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\bin\ARM\Debug\GrovePi.dll
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csprojAssemblyReference.cache
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CoreCompileInputs.cache
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.winmd
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.pdb
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CopyComplete
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.winmdobj
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.compile.pdb
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\ResourceHandlingTask.state
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Primitives.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Sockets.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.Uri.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Buffers.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Data.Common.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Http.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NameResolution.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NetworkInformation.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Requests.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.Client.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ObjectModel.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Claims.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Algorithms.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Cng.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Encoding.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Primitives.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.X509Certificates.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.GenerateResource.Cache
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml.intermediate
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\unfiltered.layout.resfiles
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\unfiltered.layout.resfiles.intermediate
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\filtered.layout.resfiles
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\filtered.layout.resfiles.intermediate
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\excluded.layout.resfiles
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\excluded.layout.resfiles.intermediate
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles.intermediate
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles.intermediate
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt.intermediate
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Users\160455Y\Downloads\ip (1)\ip\Distance\Distance\obj\ARM\Debug\ProjectArchitectures.txt
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.winmd
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.pdb
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\resources.pri
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\AppxManifest.xml
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Core\AppxManifest.xml
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Core\UWPShim.exe
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.build.appxrecipe
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Formatting.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.CSharp.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Extensions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Core.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Web.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Windows.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Linq.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Serialization.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.VisualBasic.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Newtonsoft.Json.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tools.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tracing.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Calendars.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Extensions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Resources.ResourceManager.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Handles.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.Extensions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Timer.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.Win32.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Debug.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Sockets.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Extensions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.Uri.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\clrcompression.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.AppContext.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Buffers.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Concurrent.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Immutable.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.NonGeneric.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Specialized.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.Annotations.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Data.Common.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Contracts.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.StackTrace.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Dynamic.Runtime.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Extensions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.ZipFile.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.IsolatedStorage.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Expressions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Parallel.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Queryable.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Rtc.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.NameResolution.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.NetworkInformation.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Requests.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebHeaderCollection.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.Client.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ObjectModel.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.DataContractSerialization.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.ServiceModel.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Context.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.DispatchProxy.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.Lightweight.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Metadata.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.TypeExtensions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Numerics.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Json.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Xml.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Claims.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Cng.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Encoding.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Principal.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Duplex.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Http.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.NetTcp.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Primitives.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Security.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.CodePages.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.RegularExpressions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Overlapped.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Parallel.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.ReaderWriter.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XDocument.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlDocument.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlSerializer.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\bin\ARM\Debug\GrovePi.dll
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csprojAssemblyReference.cache
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CoreCompileInputs.cache
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.winmd
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.pdb
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CopyComplete
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.winmdobj
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.compile.pdb
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\ResourceHandlingTask.state
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Primitives.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Sockets.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.Uri.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Buffers.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Data.Common.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Http.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NameResolution.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NetworkInformation.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Requests.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.Client.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ObjectModel.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Claims.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Algorithms.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Cng.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Encoding.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Primitives.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.X509Certificates.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.GenerateResource.Cache
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml.intermediate
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\unfiltered.layout.resfiles
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\unfiltered.layout.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\filtered.layout.resfiles
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\filtered.layout.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\excluded.layout.resfiles
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\excluded.layout.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles.intermediate
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt.intermediate
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Users\160455Y\Desktop\ip (1)\ip\Distance\Distance\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.winmd
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.pdb
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\resources.pri
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\AppxManifest.xml
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Core\AppxManifest.xml
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Core\UWPShim.exe
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Distance.build.appxrecipe
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Formatting.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.CSharp.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Extensions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Core.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Web.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Windows.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Linq.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.Serialization.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.VisualBasic.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Newtonsoft.Json.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tools.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Calendars.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Extensions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Resources.ResourceManager.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Handles.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Timer.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Debug.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Sockets.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Extensions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.Uri.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\clrcompression.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.AppContext.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Buffers.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Concurrent.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Immutable.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.NonGeneric.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Collections.Specialized.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Data.Common.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Dynamic.Runtime.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Globalization.Extensions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Expressions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Parallel.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Linq.Queryable.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Http.Rtc.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.NameResolution.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.NetworkInformation.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.Requests.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ObjectModel.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.DataContractSerialization.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Private.ServiceModel.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Context.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.DispatchProxy.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.ILGeneration.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Emit.Lightweight.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.Metadata.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Numerics.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Claims.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Cng.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Security.Principal.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Duplex.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Http.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.NetTcp.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Primitives.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.ServiceModel.Security.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Text.RegularExpressions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Overlapped.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XDocument.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlDocument.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\bin\ARM\Debug\GrovePi.dll
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.winmd
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.pdb
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.CopyComplete
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.winmdobj
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.compile.pdb
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\ResourceHandlingTask.state
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.CSharp.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.FileSystem.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Primitives.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Sockets.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Extensions.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.Uri.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Buffers.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Concurrent.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Immutable.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Collections.Specialized.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Data.Common.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Globalization.Extensions.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Expressions.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Parallel.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Linq.Queryable.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Http.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NameResolution.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.NetworkInformation.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.Requests.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Net.WebSockets.Client.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Numerics.Vectors.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.ObjectModel.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Private.ServiceModel.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Reflection.Metadata.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Numerics.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Claims.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Algorithms.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Cng.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Encoding.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.Primitives.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Security.Cryptography.X509Certificates.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Overlapped.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XDocument.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csproj.GenerateResource.Cache
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\layout.resfiles
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\Jake\Desktop\ip (1)\ip (1)\ip\Distance\Distance\obj\ARM\Debug\Distance.csprojAssemblyReference.cache

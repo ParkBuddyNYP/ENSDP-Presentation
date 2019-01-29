@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkt/aeBXrMkq8gyYRGzIU8gAAAAACAAAAAAADZgAAwAAAABAAAAD0WJteEkb7DLfv4PRIXMItAAAAAASAAACgAAAAEAAAAEsgiVfLz1ODbS3Aqyy0mkaAAAAAzY3MvxFlO93hIZX30Gy+Mm+3ILhSnc0xv4JzZXGwkoVdxiw7pDuMkXlQHKi1yyVlugn4lsqirM4mYqs2HzPsexdoGvoJPqMpiUhzo3sSTMwYN7VrfwMt58HHwxmq8F4XG6Py2rBmDlHaPgnjum3idAmh5SgOlFoQPrEPVR5K3hYUAAAAA64mxrWZZcj79eLc7gSqWJBb7Ms=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ParkBuddiesContext">
+      <Value>Data Source=tcp:parkbuddiesitp371dbserver.database.windows.net,1433%3bInitial Catalog=ParkBuddiesITP371_db%3bUser Id=sqladmin%40parkbuddiesitp371dbserver%3bPassword=azureP%40ssw0rd:%29</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ParkBuddies.Models.ParkBuddiesContext">
+      <Value>Data Source=tcp:parkbuddiesitp371dbserver.database.windows.net,1433%3bInitial Catalog=ParkBuddiesITP371_db%3bUser Id=sqladmin%40parkbuddiesitp371dbserver%3bPassword=azureP%40ssw0rd:%29</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
