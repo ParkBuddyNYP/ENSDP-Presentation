@@ -16,6 +16,7 @@ your issue will help us a lot.
 *Make sure to remove your app token.*
 
 ### SDK Version
+
 ### Android Version
 
 ### Device Model
